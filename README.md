@@ -2,6 +2,8 @@
 
 `CHRTextFieldFormatter` allows you to apply an input mask to a `UITextField` instance without any subclassing.
 
+![](Demo.gif)
+
 ## Implemented Masks
 
 There are two kind of masks available:
