@@ -1,17 +1,37 @@
-//
-//  AppDelegate.h
-//  CHRTextFieldFormatter
-//
-//  Created by Dmitry Nesterenko on 14/05/15.
-//  Copyright (c) 2015 e-legion. All rights reserved.
-//
+# CHRTextFieldFormatter
 
-#import <UIKit/UIKit.h>
+`CHRTextFieldFormatter` allows you to apply an input mask to a `UITextField` instance without any subclassing.
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+## Implemented Masks
 
-@property (strong, nonatomic) UIWindow *window;
+There are two kind of masks available:
+- `CHRPhoneNumberMask` to apply cellular phone number mask.
+- `CHRCardNumberMask` to apply credit card number mask.
 
+## Installation
 
-@end
+Drag `*.h` and `*.m` files to your project.
 
+## Usage
+
+```obj-c
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    self.phoneNumberFormatter = [[CHRTextFieldFormatter alloc] initWithTextField:self.phoneNumberTextField mask:[CHRPhoneNumberMask new]];
+    self.cardNumberFormatter = [[CHRTextFieldFormatter alloc] initWithTextField:self.cardNumberTextField mask:[CHRCardNumberMask new]];
+}
+
+- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
+    if (textField == self.phoneNumberTextField) {
+        return [self.phoneNumberFormatter textField:textField shouldChangeCharactersInRange:range replacementString:string];
+    } else if (textField == self.cardNumberTextField) {
+        return [self.cardNumberFormatter textField:textField shouldChangeCharactersInRange:range replacementString:string];
+    } else {
+        return YES;
+    }
+}
+
+```
+
+Run the example project to see the demo.
