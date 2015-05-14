@@ -12,8 +12,6 @@
 - Provides `CHRTextMask` interface to allow custom text masking algorithm implementation.
 - Sublcasses `NSFormatter`.
 
-CHRTextFieldFormatter
-
 ## Implemented Masks
 
 There are two kind of masks available:
@@ -24,8 +22,8 @@ There are two kind of masks available:
 
 Phone number mask can be configured to have non-deletable prefix. For example:
 
-```
-    CHRPhoneNumberMask * mask = [CHRPhoneNumberMask new];
+```objc
+    CHRPhoneNumberMask *mask = [CHRPhoneNumberMask new];
     mask.prefix = @"+7";
 ```
 
