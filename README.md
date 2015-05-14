@@ -1,14 +1,33 @@
 # CHRTextFieldFormatter
 
-`CHRTextFieldFormatter` allows you to apply an input mask to a `UITextField` instance without any subclassing.
+`CHRTextFieldFormatter` allows you to apply an input mask to a `UITextField` instance.
 
 ![](Demo.gif)
+
+## Features
+
+- Does not mute Copy/Cut/Paste events.
+- Correctly calculates cursors position.
+- Does not require `UITextField` subclassing.
+- Provides `CHRTextMask` interface to allow custom text masking algorithm implementation.
+- Sublcasses `NSFormatter`.
+
+CHRTextFieldFormatter
 
 ## Implemented Masks
 
 There are two kind of masks available:
 - `CHRPhoneNumberMask` to apply cellular phone number mask.
 - `CHRCardNumberMask` to apply credit card number mask.
+
+### Phone Number Mask
+
+Phone number mask can be configured to have non-deletable prefix. For example:
+
+```
+    CHRPhoneNumberMask * mask = [CHRPhoneNumberMask new];
+    mask.prefix = @"+7";
+```
 
 ## Installation
 
