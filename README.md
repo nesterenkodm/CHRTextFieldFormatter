@@ -7,10 +7,10 @@
 ## Features
 
 - Does not mute Copy/Cut/Paste events.
-- Correctly calculates cursors position.
+- Correctly calculates cursor position.
 - Does not require `UITextField` subclassing.
 - Provides `CHRTextMask` interface to allow custom text masking algorithm implementation.
-- Sublcasses `NSFormatter`.
+- Subclasses `NSFormatter`.
 
 ## Implemented Masks
 
