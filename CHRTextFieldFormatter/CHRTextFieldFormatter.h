@@ -11,7 +11,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 /**
- UITextField formatter applies a mask to the input text.
+ UITextField formatter that applies a mask to the input text.
+ 
+ @see http://stackoverflow.com/a/19161529/318790
  */
 @interface CHRTextFieldFormatter : NSFormatter
 
@@ -22,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
  
  Retain's stong reference to passed UITextField and adds target/action for EditingChanged event.
  */
-- (instancetype)initWithTextField:(UITextField *)textField mask:(id<CHRTextMask>)mask NS_DESIGNATED_INITIALIZER;
+- (instancetype)initWithTextField:(nullable UITextField *)textField mask:(nullable id<CHRTextMask>)mask NS_DESIGNATED_INITIALIZER;
 
 /**
  Proxy method to be called from the UITextField's delegate callback.

@@ -24,6 +24,10 @@
 
 #pragma mark - Initialization
 
+- (instancetype)init {
+    return [self initWithTextField:nil mask:nil];
+}
+
 - (instancetype)initWithTextField:(UITextField *)textField mask:(id<CHRTextMask>)mask {
     self = [super init];
     if (self) {
