@@ -12,7 +12,7 @@
 #pragma mark - NSCopying
 
 - (instancetype)copyWithZone:(NSZone *)zone {
-    typeof(self) copy = [[self.class alloc] init];
+    __typeof__(self) copy = [[self.class alloc] init];
     return copy;
 }
 

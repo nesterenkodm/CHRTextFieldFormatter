@@ -42,19 +42,28 @@
 
 #pragma mark - Text Field State
 
-- (void)formatTextInTextField:(UITextField *)textField {
+- (void)setText:(NSString *)text {
+    NSString *formattedText = [self stringForObjectValue:text cursorPosition:NULL];
+    [self setText:formattedText forTextField:self.textField];
+}
+
+- (void)setText:(NSString *)text forTextField:(UITextField *)textField {
     // In order to make the cursor end up positioned correctly, we need to
     // explicitly reposition it after we inject spaces into the text.
     // targetCursorPosition keeps track of where the cursor needs to end up as
     // we modify the string, and at the end we set the cursor position to it.
-    NSUInteger targetCursorPosition = [textField offsetFromPosition:textField.beginningOfDocument toPosition:textField.selectedTextRange.start];
-
-    NSString *formattedString = [self stringForObjectValue:textField.text cursorPosition:&targetCursorPosition];
+    NSInteger targetCursorPosition = [textField offsetFromPosition:textField.beginningOfDocument toPosition:textField.selectedTextRange.start];
+    
+    NSString *formattedString = [self stringForObjectValue:text cursorPosition:(NSUInteger *)&targetCursorPosition];
     
     textField.text = formattedString;
     UITextPosition *targetPosition = [textField positionFromPosition:[textField beginningOfDocument] offset:targetCursorPosition];
     
     [textField setSelectedTextRange:[textField textRangeFromPosition:targetPosition toPosition:targetPosition]];
+}
+
+- (void)formatTextInTextField:(UITextField *)textField {
+    [self setText:textField.text forTextField:textField];
 }
 
 #pragma mark - Editing Changed
