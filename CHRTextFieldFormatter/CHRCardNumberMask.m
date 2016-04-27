@@ -46,7 +46,7 @@
 
 - (NSString *)formattedStringFromString:(NSString *)string cursorPosition:(NSUInteger *)cursorPosition {
     NSMutableString *stringWithAddedSpaces = [NSMutableString new];
-    NSUInteger cursorPositionInSpacelessString = *cursorPosition;
+    NSUInteger cursorPositionInSpacelessString = cursorPosition == NULL ? 0 : *cursorPosition;
     for (NSUInteger i=0; i<[string length]; i++) {
         if ((i>0) && ((i % 4) == 0)) {
             [stringWithAddedSpaces appendString:@" "];
