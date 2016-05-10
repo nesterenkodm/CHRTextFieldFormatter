@@ -1,0 +1,14 @@
+PODS:
+  - CHRTextFieldFormatter (1.0)
+
+DEPENDENCIES:
+  - CHRTextFieldFormatter (from `../CHRTextFieldFormatter.podspec`)
+
+EXTERNAL SOURCES:
+  CHRTextFieldFormatter:
+    :path: ../CHRTextFieldFormatter.podspec
+
+SPEC CHECKSUMS:
+  CHRTextFieldFormatter: 0800d02c64340355a9f913771ec3697183ca30de
+
+COCOAPODS: 0.38.2

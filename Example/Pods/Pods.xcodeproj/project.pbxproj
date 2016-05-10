@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FA3EEDCF1D47FB0F5264F9E2A2BD79D /* CHRPhoneNumberMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 054EC3A3FA875108AD3F9826DEAF748A /* CHRPhoneNumberMask.m */; };
+		31BC9AD5F6AB36F1F6E9C20A736D24E8 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A080C6D24F28DAF0604745C56E286 /* Pods-dummy.m */; };
+		4EA376F7E9003B7FCF64E9434E9E462B /* CHRPhoneNumberMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 381CC4277F3A69AA2EA506DFABB14836 /* CHRPhoneNumberMask.h */; };
+		65C9A04485A42702F419B93458C45986 /* CHRTextMask.h in Headers */ = {isa = PBXBuildFile; fileRef = C73DA1C034CBD82DD85440D31B864E03 /* CHRTextMask.h */; };
+		79AE8754B24EAAF0B351533CE9B8B048 /* CHRTextFieldFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5C0FD7462FA80AD68758EE491D5EF7 /* CHRTextFieldFormatter.m */; };
+		7F64E898679CDC29661589C244B354AE /* CHRTextFieldFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4A6DFA91F264C7BF687F52CB87463F /* CHRTextFieldFormatter.h */; };
+		8E9E9E803529B2532973BB037B69A1B4 /* CHRCardNumberMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 5295A2825F151B4B946FF32E683F1AE2 /* CHRCardNumberMask.h */; };
+		AB5DB9955A19E07410B07128CBB250AA /* CHRTextFieldFormatter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FAC3CE8D3B22C2A2CB06B5BD6CB9A0 /* CHRTextFieldFormatter-dummy.m */; };
+		C703626FAEA082A545C3717756E45EA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C022B5A707F332BCF4C94BDFFE12804 /* Foundation.framework */; };
+		C9CDC22BFA205714F6662771361AA579 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C022B5A707F332BCF4C94BDFFE12804 /* Foundation.framework */; };
+		EFCE654E0A7258F5725C971E0BFAFD06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4269270CF18F3DB8FBE7EACE92D5933 /* UIKit.framework */; };
+		FFDB0BB6627FE2549746E4D36C2F77E7 /* CHRCardNumberMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 760C214D886BA283D0997396A950BAA5 /* CHRCardNumberMask.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F4F97353049A7D2CBAD3A51B9FEB368 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 221C5AC126138B1D6C1CD175D2DE9E7B;
+			remoteInfo = CHRTextFieldFormatter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		054EC3A3FA875108AD3F9826DEAF748A /* CHRPhoneNumberMask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHRPhoneNumberMask.m; sourceTree = "<group>"; };
+		0A4A6DFA91F264C7BF687F52CB87463F /* CHRTextFieldFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHRTextFieldFormatter.h; sourceTree = "<group>"; };
+		128E628F5176E12C421F71228BB2EFFB /* CHRTextFieldFormatter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHRTextFieldFormatter.xcconfig; sourceTree = "<group>"; };
+		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2B4A080C6D24F28DAF0604745C56E286 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		381CC4277F3A69AA2EA506DFABB14836 /* CHRPhoneNumberMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHRPhoneNumberMask.h; sourceTree = "<group>"; };
+		3D5C0FD7462FA80AD68758EE491D5EF7 /* CHRTextFieldFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHRTextFieldFormatter.m; sourceTree = "<group>"; };
+		5295A2825F151B4B946FF32E683F1AE2 /* CHRCardNumberMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHRCardNumberMask.h; sourceTree = "<group>"; };
+		5C022B5A707F332BCF4C94BDFFE12804 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		6D65ABE055575576FA3DE906998DCF3B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		760C214D886BA283D0997396A950BAA5 /* CHRCardNumberMask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHRCardNumberMask.m; sourceTree = "<group>"; };
+		79572558F6E263077A875371FC746970 /* CHRTextFieldFormatter-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CHRTextFieldFormatter-Private.xcconfig"; sourceTree = "<group>"; };
+		79A7C7B9D8588AD9EADCBA5CFE93CE4A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B9338D197A5122D8B72078BE838F92C /* libCHRTextFieldFormatter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCHRTextFieldFormatter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4269270CF18F3DB8FBE7EACE92D5933 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		C65360332248CBBF174242B188C92433 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		C73DA1C034CBD82DD85440D31B864E03 /* CHRTextMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHRTextMask.h; sourceTree = "<group>"; };
+		D9FAC3CE8D3B22C2A2CB06B5BD6CB9A0 /* CHRTextFieldFormatter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHRTextFieldFormatter-dummy.m"; sourceTree = "<group>"; };
+		E66DD9F90B56CB96357754EDDB6C3C76 /* CHRTextFieldFormatter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHRTextFieldFormatter-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0053548199B4C3E0F96715D7CD188703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CDC22BFA205714F6662771361AA579 /* Foundation.framework in Frameworks */,
+				EFCE654E0A7258F5725C971E0BFAFD06 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4DED8130AB882F3BD18CD0361D17F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C703626FAEA082A545C3717756E45EA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01E333BC58ED1070029DD85D64CF21A3 /* CHRTextFieldFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				B786B19A2C59893D1AE572272A7A74E4 /* CHRTextFieldFormatter */,
+				82E65920E87954EC4B3A9D946D7C467F /* Support Files */,
+			);
+			name = CHRTextFieldFormatter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0FB9306D21AF23A056944AE037CBFFF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				C2E746A74C010E1B89CD476DF61F8E98 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82E65920E87954EC4B3A9D946D7C467F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				128E628F5176E12C421F71228BB2EFFB /* CHRTextFieldFormatter.xcconfig */,
+				79572558F6E263077A875371FC746970 /* CHRTextFieldFormatter-Private.xcconfig */,
+				D9FAC3CE8D3B22C2A2CB06B5BD6CB9A0 /* CHRTextFieldFormatter-dummy.m */,
+				E66DD9F90B56CB96357754EDDB6C3C76 /* CHRTextFieldFormatter-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CHRTextFieldFormatter";
+			sourceTree = "<group>";
+		};
+		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
+				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
+				2B4A080C6D24F28DAF0604745C56E286 /* Pods-dummy.m */,
+				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
+				6D65ABE055575576FA3DE906998DCF3B /* Pods.debug.xcconfig */,
+				C65360332248CBBF174242B188C92433 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		B786B19A2C59893D1AE572272A7A74E4 /* CHRTextFieldFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				5295A2825F151B4B946FF32E683F1AE2 /* CHRCardNumberMask.h */,
+				760C214D886BA283D0997396A950BAA5 /* CHRCardNumberMask.m */,
+				381CC4277F3A69AA2EA506DFABB14836 /* CHRPhoneNumberMask.h */,
+				054EC3A3FA875108AD3F9826DEAF748A /* CHRPhoneNumberMask.m */,
+				0A4A6DFA91F264C7BF687F52CB87463F /* CHRTextFieldFormatter.h */,
+				3D5C0FD7462FA80AD68758EE491D5EF7 /* CHRTextFieldFormatter.m */,
+				C73DA1C034CBD82DD85440D31B864E03 /* CHRTextMask.h */,
+			);
+			path = CHRTextFieldFormatter;
+			sourceTree = "<group>";
+		};
+		C2E746A74C010E1B89CD476DF61F8E98 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01E333BC58ED1070029DD85D64CF21A3 /* CHRTextFieldFormatter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B9338D197A5122D8B72078BE838F92C /* libCHRTextFieldFormatter.a */,
+				79A7C7B9D8588AD9EADCBA5CFE93CE4A /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0FB9306D21AF23A056944AE037CBFFF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5C022B5A707F332BCF4C94BDFFE12804 /* Foundation.framework */,
+				B4269270CF18F3DB8FBE7EACE92D5933 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		90DBE2417EF9EDFC093746F8C39E8E8B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9E9E803529B2532973BB037B69A1B4 /* CHRCardNumberMask.h in Headers */,
+				4EA376F7E9003B7FCF64E9434E9E462B /* CHRPhoneNumberMask.h in Headers */,
+				7F64E898679CDC29661589C244B354AE /* CHRTextFieldFormatter.h in Headers */,
+				65C9A04485A42702F419B93458C45986 /* CHRTextMask.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		221C5AC126138B1D6C1CD175D2DE9E7B /* CHRTextFieldFormatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DB72092342C22901DC7554CA7E8F285 /* Build configuration list for PBXNativeTarget "CHRTextFieldFormatter" */;
+			buildPhases = (
+				10F79D7C708EDFCAA6D95C478A0F7FB2 /* Sources */,
+				0053548199B4C3E0F96715D7CD188703 /* Frameworks */,
+				90DBE2417EF9EDFC093746F8C39E8E8B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHRTextFieldFormatter;
+			productName = CHRTextFieldFormatter;
+			productReference = 8B9338D197A5122D8B72078BE838F92C /* libCHRTextFieldFormatter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		56FC9F3263606576666472C82D7AF038 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D946FE325FFE2CE05DC2ED8C1DA1C8 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				6F616B25A9E508DFB68F0FA0635A410D /* Sources */,
+				8D4DED8130AB882F3BD18CD0361D17F4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F29DFE6053B8F346EE4C9988E1ADD7D /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 79A7C7B9D8588AD9EADCBA5CFE93CE4A /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				221C5AC126138B1D6C1CD175D2DE9E7B /* CHRTextFieldFormatter */,
+				56FC9F3263606576666472C82D7AF038 /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10F79D7C708EDFCAA6D95C478A0F7FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDB0BB6627FE2549746E4D36C2F77E7 /* CHRCardNumberMask.m in Sources */,
+				1FA3EEDCF1D47FB0F5264F9E2A2BD79D /* CHRPhoneNumberMask.m in Sources */,
+				AB5DB9955A19E07410B07128CBB250AA /* CHRTextFieldFormatter-dummy.m in Sources */,
+				79AE8754B24EAAF0B351533CE9B8B048 /* CHRTextFieldFormatter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F616B25A9E508DFB68F0FA0635A410D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BC9AD5F6AB36F1F6E9C20A736D24E8 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F29DFE6053B8F346EE4C9988E1ADD7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CHRTextFieldFormatter;
+			target = 221C5AC126138B1D6C1CD175D2DE9E7B /* CHRTextFieldFormatter */;
+			targetProxy = 2F4F97353049A7D2CBAD3A51B9FEB368 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40E48D4832B7C2D6DA841351D4082DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C65360332248CBBF174242B188C92433 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		454411D9DEC7E3B0AF743977BBB7B932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D65ABE055575576FA3DE906998DCF3B /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		75996F97C7BAC49308871BA1469BBD8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79572558F6E263077A875371FC746970 /* CHRTextFieldFormatter-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CHRTextFieldFormatter/CHRTextFieldFormatter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DCA6BF0FFDBBBFA51E544854675A2E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79572558F6E263077A875371FC746970 /* CHRTextFieldFormatter-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CHRTextFieldFormatter/CHRTextFieldFormatter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DB72092342C22901DC7554CA7E8F285 /* Build configuration list for PBXNativeTarget "CHRTextFieldFormatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA6BF0FFDBBBFA51E544854675A2E71 /* Debug */,
+				75996F97C7BAC49308871BA1469BBD8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D946FE325FFE2CE05DC2ED8C1DA1C8 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				454411D9DEC7E3B0AF743977BBB7B932 /* Debug */,
+				40E48D4832B7C2D6DA841351D4082DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
