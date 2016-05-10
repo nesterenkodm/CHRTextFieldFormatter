@@ -13,9 +13,7 @@
 		111B95561B040D6D00E3C4AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111B95541B040D6D00E3C4AD /* Main.storyboard */; };
 		111B95581B040D6D00E3C4AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111B95571B040D6D00E3C4AD /* Images.xcassets */; };
 		111B955B1B040D6D00E3C4AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 111B95591B040D6D00E3C4AD /* LaunchScreen.xib */; };
-		111B95761B040EC400E3C4AD /* CHRPhoneNumberMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 111B95721B040EC400E3C4AD /* CHRPhoneNumberMask.m */; };
-		111B95771B040EC400E3C4AD /* CHRTextFieldFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 111B95741B040EC400E3C4AD /* CHRTextFieldFormatter.m */; };
-		111B957A1B040FB000E3C4AD /* CHRCardNumberMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 111B95791B040FB000E3C4AD /* CHRCardNumberMask.m */; };
+		DC0C975AD761B054A01A9C96 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A1F82D812601D677151565 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,13 +27,9 @@
 		111B95551B040D6D00E3C4AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		111B95571B040D6D00E3C4AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		111B955A1B040D6D00E3C4AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		111B95711B040EC400E3C4AD /* CHRPhoneNumberMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHRPhoneNumberMask.h; sourceTree = "<group>"; };
-		111B95721B040EC400E3C4AD /* CHRPhoneNumberMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHRPhoneNumberMask.m; sourceTree = "<group>"; };
-		111B95731B040EC400E3C4AD /* CHRTextFieldFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHRTextFieldFormatter.h; sourceTree = "<group>"; };
-		111B95741B040EC400E3C4AD /* CHRTextFieldFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHRTextFieldFormatter.m; sourceTree = "<group>"; };
-		111B95751B040EC400E3C4AD /* CHRTextMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHRTextMask.h; sourceTree = "<group>"; };
-		111B95781B040FB000E3C4AD /* CHRCardNumberMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHRCardNumberMask.h; sourceTree = "<group>"; };
-		111B95791B040FB000E3C4AD /* CHRCardNumberMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHRCardNumberMask.m; sourceTree = "<group>"; };
+		63A1F82D812601D677151565 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB6DAB2CB30C09FE8EDE59B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E5E9AA70F7087813A9A2D579 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC0C975AD761B054A01A9C96 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,9 +47,10 @@
 		111B953E1B040D6D00E3C4AD = {
 			isa = PBXGroup;
 			children = (
-				111B95701B040EC400E3C4AD /* CHRTextFieldFormatter */,
 				111B95491B040D6D00E3C4AD /* Example */,
 				111B95481B040D6D00E3C4AD /* Products */,
+				F1C71A37F84A31CD8709F6BA /* Pods */,
+				9F700DF1BC5AB63C793DA276 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,19 +86,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		111B95701B040EC400E3C4AD /* CHRTextFieldFormatter */ = {
+		9F700DF1BC5AB63C793DA276 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				111B95781B040FB000E3C4AD /* CHRCardNumberMask.h */,
-				111B95791B040FB000E3C4AD /* CHRCardNumberMask.m */,
-				111B95711B040EC400E3C4AD /* CHRPhoneNumberMask.h */,
-				111B95721B040EC400E3C4AD /* CHRPhoneNumberMask.m */,
-				111B95731B040EC400E3C4AD /* CHRTextFieldFormatter.h */,
-				111B95741B040EC400E3C4AD /* CHRTextFieldFormatter.m */,
-				111B95751B040EC400E3C4AD /* CHRTextMask.h */,
+				63A1F82D812601D677151565 /* libPods.a */,
 			);
-			name = CHRTextFieldFormatter;
-			path = ../CHRTextFieldFormatter;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1C71A37F84A31CD8709F6BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5E9AA70F7087813A9A2D579 /* Pods.debug.xcconfig */,
+				8DB6DAB2CB30C09FE8EDE59B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 111B956A1B040D6D00E3C4AD /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
+				A6DE9110BBFEB1FEBC83B829 /* Check Pods Manifest.lock */,
 				111B95431B040D6D00E3C4AD /* Sources */,
 				111B95441B040D6D00E3C4AD /* Frameworks */,
 				111B95451B040D6D00E3C4AD /* Resources */,
+				EFDD89947A88BB0C300174B4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,16 +170,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A6DE9110BBFEB1FEBC83B829 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFDD89947A88BB0C300174B4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		111B95431B040D6D00E3C4AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				111B95761B040EC400E3C4AD /* CHRPhoneNumberMask.m in Sources */,
 				111B95531B040D6D00E3C4AD /* ViewController.m in Sources */,
-				111B95771B040EC400E3C4AD /* CHRTextFieldFormatter.m in Sources */,
 				111B95501B040D6D00E3C4AD /* AppDelegate.m in Sources */,
-				111B957A1B040FB000E3C4AD /* CHRCardNumberMask.m in Sources */,
 				111B954D1B040D6D00E3C4AD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +319,7 @@
 		};
 		111B956B1B040D6D00E3C4AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E9AA70F7087813A9A2D579 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Example/Info.plist;
@@ -300,6 +331,7 @@
 		};
 		111B956C1B040D6D00E3C4AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DB6DAB2CB30C09FE8EDE59B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Example/Info.plist;
