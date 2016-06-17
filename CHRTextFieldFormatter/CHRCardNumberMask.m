@@ -47,8 +47,11 @@
 - (NSString *)formattedStringFromString:(NSString *)string cursorPosition:(NSUInteger *)cursorPosition {
     NSMutableString *stringWithAddedSpaces = [NSMutableString new];
     NSUInteger cursorPositionInSpacelessString = cursorPosition == NULL ? 0 : *cursorPosition;
+    BOOL isAmericanExpress = [string hasPrefix:@"34"] || [string hasPrefix:@"37"];
+    
     for (NSUInteger i=0; i<[string length]; i++) {
-        if ((i>0) && ((i % 4) == 0)) {
+        BOOL shouldAppendSpace = isAmericanExpress ? (i==4 || i==10) : ((i>0) && ((i % 4) == 0));
+        if (shouldAppendSpace) {
             [stringWithAddedSpaces appendString:@" "];
             if (i < cursorPositionInSpacelessString) {
                 (*cursorPosition)++;
